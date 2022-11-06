@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/b04df19cee.js" crossorigin="anonymous"></script>
+    <style>
+        .grid-container {
+          display: grid;
+          row-gap: 20px;
+          background-color:#F5F9FC;
+          padding: 10px;
+          width: 400px;
+        }
+        
+        .grid-item {
+          background-color: #F5F9FC;
+          padding: 20px;
+          text-align: center;
+        }
+        #album{
+        padding: 5px;
+        text-align: left;
+        background-color: rgb(57, 55, 55);
+        color: white;
+        font-weight: bold;
+        font-size: small;
+        }
+        #first{
+        text-align: center;
+        color: gray;
+        font-size: smaller;
+    }
+        #roll1{
+        background-color: rgb(93, 92, 92); 
+        height: 150px; 
+        width: 400px;
+        padding: none;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        font-size: larger;
+        }
+        #roll2{
+        text-align:center;
+        font-size: small; }
+        table{border:1px solid grey;}
+        </style>
+</head>
+<body>
+<div class="grid-container">
+    <div class="grid-item">
+        <div id="album">
+            <i class="fa-solid fa-camera"></i> Album
+        </div>
+        <div id="first">
+            <h2>Album example</h2>
+            <p>
+             Something short and leading about the collection below-its contens, the creator etc. Make it short and sweet, but not too short so folks don't 
+             simply skip over it entirely 
+            </p> <br><br>
+            <input type="submit" value="Main call to action" style="background-color:blue;color:white;padding: 5px;">
+            <input type="button" value="Secondary action" style="background-color:rgb(95, 92, 92);color:white;padding: 5px;">
+        </div>
+    </div>
+    <div class="grid-item">
+        <table >
+            <tr id="roll1" rowspan="2">
+                <td> Thumbnail</td>
+            </tr>
+            <tr >
+                <td id="roll2"> 
+                <p>This is a wider card with supporting text below as a nature lead-in to additional content. This content is a little bit longer.
+                </p> <br> 
+                <input type="submit" value="View" style="float:left;">
+                <input type="submit" value="Edit" style="float:left;"> 
+                <p style="text-align:right;color:gray"> 9min</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="grid-item">
+            <table>
+        <tr id="roll1" rowspan="2">
+            <td> Thumbnail</td>
+        </tr>
+        <tr >
+            <td id="roll2"> 
+            <p>This is a wider card with supporting text below as a nature lead-in to additional content. This content is a little bit longer.
+            </p> <br> 
+            <input type="submit" value="View" style="float:left;">
+            <input type="submit" value="Edit" style="float:left;"> 
+            <p style="text-align:right;color:gray"> 9min</p>
+            </td>
+        </tr>
+    </table>
+    </div>  
+  
+  </div>
+  
+</body>
+</html>
