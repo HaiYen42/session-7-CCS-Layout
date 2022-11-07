@@ -6,62 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/b04df19cee.js" crossorigin="anonymous"></script>
-
-    <style>
-        .grid-container {
-          display: grid;
-          grid-template-columns: auto auto auto auto auto auto;
-          gap: 0px;
-          padding: 0px;
-        }     
-        .grid-container > div {
-          background-color: rgb(67,72,65);
-          text-align: center;
-          padding: 20px 0;
-        }       
-        .item1 {
-          grid-row: 1 / 4;
-        }
-        .item1 li{
-            list-style-type: none;
-            text-align: left;
-            color: white;
-        }
-        .item1 li:hover{
-            color:rgb(55, 167, 55);
-        }
-        .item1 ul{
-            color: white;
-        }
-        div .item1{background-color: rgb(16,17,12);}
-        .item2 {
-          grid-column: 2/7;
-         }
-         .item3 {
-          grid-column: 2/7;
-          color: white;
-         }
-        div .item4 {
-           grid-column: 2/7;
-           background-color: #ced4da;
-         }
-         .item4 ul {
-            font-style: italic;
-            color: rgb(52, 45, 45);
-         }
-         #linkhead a{
-            text-decoration: none;
-            padding-right: 10px;
-            color: lightgrey;
-         }
-         #linkhead a:hover{
-            color:white;
-            font-weight: bolder;
-         }
-         .leafthead3 li{
-            margin-top: 230px;
-            }
-        </style>
+    <link rel="stylesheet" href="/webmusic.css">
 </head>
 <body>
 <div class="grid-container">
@@ -92,27 +37,50 @@
   </div>
   <div class="item3">
     <h2>Today Is The Day</h2>
- <video width="300" controls >
-    <source src="./video/Người Ấy Liveband ver. - Hoà Minzy x Trịnh Thăng Bình - Talkshow Chuyện Chúng Ta -.mp4"
-    type="video/mp4"> 
-</video>
-<video width="300" controls>
-    <source src="./video/Endless Love The Myth OST_ Piano_ - An C (1).mp4"
-    type="video/mp4">
-</video>
-<video width="300" controls>
-    <source src="./video/videoplayback (1).mp4" type="video/mp4">
-</video> <br> <br> <br>
-<video width="300" controls>
+    <table class="bang">
+  <tr> 
+    <td>
+         <video width="300" controls >
+         <source src="./video/Người Ấy Liveband ver. - Hoà Minzy x Trịnh Thăng Bình - Talkshow Chuyện Chúng Ta -.mp4"
+          type="video/mp4"> 
+         </video> 
+        <div>Somebody Else</div>
+    </td>
+      <td>
+        <video width="300" controls>
+        <source src="./video/Endless Love The Myth OST_ Piano_ - An C (1).mp4"
+        type="video/mp4">
+      </video>
+      <div>Endless</div>
+    </td> 
+    <td>
+        <video width="300" controls>
+        <source src="./video/videoplayback (1).mp4" type="video/mp4">
+        </video> 
+        <div>My Love</div>
+</td>   
+</tr>
+<tr>
+  <td>
+    <video width="300" controls>
     <source src="./video/videoplayback (2).mp4" type="video/mp4">
-</video> 
-<video width="300" controls>
+    </video> 
+    <div>I have dream</div>
+  </td>
+  <td>
+    <video width="300" controls>
     <source src="./video/videoplayback (3).mp4" type="video/mp4">
-</video>
-<video width="300" controls >
+    </video>
+    <div>Season in the Sun</div>
+  </td>
+  <td>
+    <video width="300" controls >
     <source src="./video/videoplayback (4).mp4" type="video/mp4">
-</video>   
-
+    </video>   
+    <div> Talor Swift</div>
+  </td>
+</tr>
+</table>
 </div>  
  <div class="item4">
  <ul>Nguồn: <a href="#" style="color:blue;"> https://open.spotify.com </a></ul> 
